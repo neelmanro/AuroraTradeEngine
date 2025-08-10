@@ -21,7 +21,32 @@ It features order matching, market ladder visualization, PnL tracking, and key p
 - **Concurrency**: Multi-threading with `LinkedBlockingQueue`
 - **Design**: Simulated matching engine for educational and demo purposes
 
+
 ## Getting Started
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/neelmanro/AuroraTradeEngine.git
+Open the project in your Java IDE.  
+Run `TradeEngine.java` to start.
+
+## Usage
+When running the program, you can:
+- Place orders manually
+- View the market ladder
+- See PnL and metrics
+- Run the real-time trading simulation
+
+## Example Output
+=== Aurora Trade Engine ===  
+BUY              | SELL  
+50 @ $101.00     | 40 @ $102.00  
+30 @ $100.00     | 20 @ $103.00  
+
+Metrics:  
+Total trades  14  
+Total volume  320  
+Avg trade price  $101.2456  
+
+## Future Improvements
+- GUI or web-based front-end
+- Historical trade logging
+- More complex matching algorithms
+- API integration for real market data
+
